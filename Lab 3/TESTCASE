@@ -1,0 +1,27 @@
+;TEST Case
+
+.ORIG x3800
+	.FILL x4000		;for x3800
+ 	.FILL x0000		;for x3801
+
+	.BLKW 2046
+
+;Nodes begin
+
+	.FILL x3800		;for x4000
+	.FILL x4100		;for x4001
+	.STRINGZ "12345"
+	
+	.BLKW 248
+
+	.FILL x4000		;for x4100
+	.FILL x4200		;for x4101
+	.STRINGZ "abc12"
+
+	.BLKW 248
+	
+	.FILL x4100		;for x4200
+	.FILL x0000		;for x4202
+	.STRINGZ "abcde"
+
+.END

@@ -1,0 +1,17 @@
+//Symbol Name		Page Address
+//----------------	------------
+//	DDR                     201B
+//	DISPLAY                 200E
+//	DSR                     201A
+//	INTRPT                  201D
+//	KBDR                    2019
+//	KBSR                    2018
+//	POLL1                   2008
+//	POLL2                   200C
+//	SAVE_R1                 201E
+//	SAVE_R2                 201F
+//	SAVE_R3                 2020
+//	SAVE_R4                 2021
+//	SAVE_R5                 2022
+//	STADDR                  201C
+//	TEN                     2017

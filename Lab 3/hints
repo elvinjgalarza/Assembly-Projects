@@ -1,0 +1,17 @@
+use another register for checking for null because you will lose the address you're currently at!!
+
+ADD R0, R0, #1 for array
+LDR R0, R0, #0 gives us next node
+LDR R0, R0, #1 to go to previous node
+
+to get data LDR R1, R0, #2
+	    LDR R2, R0, #3
+
+to check for NULL
+BRz L1
+
+; removing nodes
+LDR R2, R1, #0
+LDR R0, R1, #1
+LDR R3, R1, #0
+STR R3, R0, #0

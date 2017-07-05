@@ -1,0 +1,30 @@
+;TestCase 1 By Jesse Peterson
+; odd number of students
+;
+.ORIG	x4003
+;
+;
+
+
+.FILL	x0150 ;1
+.FILL	x025A ;2
+.FILL	x0364 ;3
+.FILL	x045B ;4
+.FILL	x0564;5
+.FILL	x0651;6
+.FILL   x0764;7
+.FILL	x0864;8
+.FILL	x0964;9
+.FILL	x0A61;10
+.FILL	x0B64;11
+.FILL	x0C01;12
+.FILL	x0D20;13
+.FILL	x0E01;14
+.FILL	x0F28;15
+.FILL	x1037;16
+.FILL	x1132;17
+.FILL	x00AA
+.FILL	xFFFF
+
+
+.END

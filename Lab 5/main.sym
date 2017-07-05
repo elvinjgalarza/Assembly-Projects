@@ -1,0 +1,16 @@
+//Symbol Name		Page Address
+//----------------	------------
+//	ASCII_DOTS              301B
+//	ASCII_NEWLN             301D
+//	ASCII_SPACE             301C
+//	COUNT                   301F
+//	COUNTER_20              301E
+//	DOTS                    300D
+//	ISRLOC                  3020
+//	KBSR1                   3024
+//	MAIN                    300A
+//	MAIN1                   3007
+//	MASK                    3022
+//	PTR                     3021
+//	SPACES                  3012
+//	VECTOR                  3023
